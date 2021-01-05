@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19784" started-at="2020-12-28T20:27:31 EST" finished-at="2020-12-28T20:27:50 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19784" started-at="2020-12-28T20:27:31 EST" finished-at="2020-12-28T20:27:50 EST">
+      <class name="testcases.OrderComplete">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.OrderComplete@401e7803]" name="init" is-config="true" duration-ms="23057" started-at="2020-12-28T20:27:08 EST" finished-at="2020-12-28T20:27:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="MyAccount()[pri:0, instance:testcases.OrderComplete@401e7803]" name="MyAccount" duration-ms="19750" started-at="2020-12-28T20:27:31 EST" finished-at="2020-12-28T20:27:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.OrderComplete@401e7803]" name="tearDown" is-config="true" duration-ms="710" started-at="2020-12-28T20:27:51 EST" finished-at="2020-12-28T20:27:51 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.OrderComplete -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

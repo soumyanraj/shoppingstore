@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.AddToCart">
+        <methods>
+          <include name="MyAccount"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.AddToCart -->
+      <class name="testcases.OrderComplete">
+        <methods>
+          <include name="init"/>
+          <include name="MyAccount"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.OrderComplete -->
+      <class name="testcases.Myaccount">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="MyAccount"/>
+        </methods>
+      </class> <!-- testcases.Myaccount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
